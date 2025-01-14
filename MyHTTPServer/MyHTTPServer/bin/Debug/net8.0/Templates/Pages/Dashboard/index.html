@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple TV+ (RU)</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="navbar_elements">
+      <div class="navbar_left">
+        <a href="#">
+          <img class="iconAppleTV" src="assets/icons/iconAppleTV.png"> Открыть TV
+          <img class="iconLink" src="assets/icons/link.png" alt="Link Icon">
+        </a>
+      </div>
+      <a class="logo" href="http://localhost:6529/index">Apple TV+</a>
+      <div class="navbar_right">
+        <input type="text" placeholder="Поиск" />
+        {{NAVBAR_BUTTON}} 
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <video src="assets/tralers/tedlasso.MP4" autoplay muted loop></video>
+        <div class="slide-content">
+          <h1>Получите полный доступ к Apple TV+</h1>
+          <p>Смотрите фильмы и сериалы Apple Originals и многое другое</p>
+          <button class="trial-button">Пробная подписка</button>
+          <h5>7 дн. бесплатно, затем 199,00₽ в месяц</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- Популярные сериалы -->
+<div class="popular-series-container">
+  <h2>Самые популярные сериалы</h2>
+  <div class="popular-series-grid">
+    {{SERIES_CARDS}}  <!-- Здесь будет динамически вставляться HTML для карточек сериалов -->
+  </div>
+  <button class="serial-carousel-button prev">&#10094;</button>
+  <button class="serial-carousel-button next">&#10095;</button>
+</div>
+
+<!-- Популярные фильмы -->
+<div class="popular-movies-container">
+  <h2>Самые популярные фильмы</h2>
+  <div class="popular-movies-grid">
+    {{MOVIES_CARDS}}  <!-- Здесь будет динамически вставляться HTML для карточек фильмов -->
+  </div>
+  <button class="movie-carousel-button next">&#10095;</button>
+  <button class="movie-carousel-button prev">&#10094;</button>
+</div>
+
+<!-- Драмы -->
+<div class="drama-container">
+  <h2>Драмы</h2>
+  <div class="drama-grid">
+    {{DRAMAS_CARDS}}  <!-- Здесь будет динамически вставляться HTML для карточек драм -->
+  </div>
+  <button class="drama-carousel-button next">&#10095;</button>
+  <button class="drama-carousel-button prev">&#10094;</button>
+</div>
+
+<!-- Боевики -->
+<div class="action-movie-container">
+  <h2>Боевики</h2>
+  <div class="action-movie-grid">
+    {{FIGHTERS_CARDS}}  <!-- Здесь будет динамически вставляться HTML для карточек боевиков -->
+  </div>
+  <button class="action-movie-carousel-button next">&#10095;</button>
+  <button class="action-movie-carousel-button prev">&#10094;</button>
+</div>
+
+<!-- Комедии -->
+<div class="thrillers-container">
+  <h2>Комедии</h2>
+  <div class="thrillers-grid">
+    {{COMEDIES_CARDS}}  <!-- Здесь будет динамически вставляться HTML для карточек комедий -->
+  </div>
+  <button class="thrillers-carousel-button next">&#10095;</button>
+  <button class="thrillers-carousel-button prev">&#10094;</button>
+</div>
+
+
+<footer>
+  <div class="footer-left">
+    <div class="footer-top">
+      Copyright © 2024 Apple Inc. Все права защищены.
+    </div>
+    <div class="footer-links">
+      <a href="#" class="links">Условия пользования интернет-сервисами</a>
+      <span>|</span>
+      <a href="#">Apple TV и конфиденциальность</a>
+      <span>|</span>
+      <a href="#">Использование cookies</a>
+      <span>|</span>
+      <a href="#">Служба поддержки</a>
+    </div>
+  </div>
+  <div class="footer-right footer-locale">
+    <a href="#" class="russia">Россия</a>
+    <span>|</span>
+    <a href="#" class="languages">English (UK)</a>
+    <span>|</span>
+    <a href="#" class="languages">Русский</a>
+    <span>|</span>
+    <a href="#" class="languages">Українська</a>
+  </div>
+</footer>
+<script src="assets/js/index.js"></script>
+</body>
+</html>

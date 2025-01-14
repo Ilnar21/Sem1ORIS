@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YSC8LzqhN9Q=",
+  "success": true,
+  "projectFilePath": "D:\\Загрузки\\MyHTTPServerORIS\\MyHTTPServer\\HttpServerLibrary\\HttpServerLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valiu\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\valiu\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}

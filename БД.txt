@@ -1,0 +1,94 @@
+CREATE TABLE movies (
+    id INT PRIMARY KEY,
+    title VARCHAR(255),
+    description TEXT,
+    genre VARCHAR(50),
+    year INT,
+    image TEXT,
+    trailer TEXT
+);
+
+INSERT INTO movies (id, title, description, genre, year, image, trailer) VALUES
+(1, 'Покажи мне луну', 'Скарлетт Йоханссон и Ченнинг Татум в ролях специалиста...', 'Movies', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(2, 'Финч', 'Изобретатель Финч (Том Хэнкс) отправляется в опасное путешествие...', 'Movies', 2021, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(3, 'Наполеон', 'Пикантный взгляд на происхождение французского военачальника...', 'Movies', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(4, 'Тед Лассо', 'Сериал получил 13 премий «Эмми», в том числе два года подряд...', 'Serials', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(5, 'Гераклия', 'Джина оплакивает смерть жены, при этом стараясь оставаться...', 'Serials', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(6, 'Удача', 'Сэм Гринчем — самая невезучая девочка в мире! Внезапно...', 'Movies', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(7, 'Одинокие волки', 'Пути двух соперников чистильщиков (Джордж Клуни и Брэд Питт)...', 'Movies', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(8, 'Укрытие', 'На отравленной гибнущей планете будущее тысячи людей зависит...', 'Serials', 2022, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(9, 'Разделение', 'Сериал — лауреат премии «Эмми» от режиссера Бена Стиллера...', 'Serials', 2022, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(10, 'Заговор сестёр Гарви', 'Неразлучные сёстры Гарви всегда заботились друг о друге...', 'Serials', 2022, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(11, 'Основание', 'Сериал «Основание», снятый по мотивам удостоенных множества...', 'Serials', 2021, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(12, 'Заложники', 'Рори и Кобби — неожиданное сообщение: отчаявшийся отец и...', 'Movies', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(13, 'Плохая обезьяна', 'Фильм про плохую обезьяну', 'Drama', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(14, 'Черная птица', 'Фильм о темных силах, скрывающихся в ночи', 'Drama', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(15, 'Модный дом', 'Драма о мире моды и амбиций', 'Drama', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(16, 'Переполненная комната', 'История о жизни в маленькой квартире и ее трудностях', 'Drama', 2021, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(17, 'Вторжение', 'Сюжет о нападении инопланетян', 'Drama', 2021, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(18, 'Защищая Джейкоба', 'Драма о борьбе с обвинениями в преступлении, которое не...', 'Drama', 2022, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(19, 'Освобождение', 'Драма о борьбе за свободу и преодолении препятствий.', 'Action', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(20, 'По наклонной', 'История о падении и попытке подняться после катастрофы.', 'Drama', 2021, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(21, 'Без ответа', 'Триллер о расследовании необычных событий.', 'Action', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(22, 'Семейный план', 'Драма о семье, которая должна защитить своих близких от...', 'Action', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(23, 'Аргайл', 'История о секретном агенте, который попадает в эпицентр...', 'Action', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(24, 'Тёмная материя', 'Сюжет о научных исследованиях в области параллельных...', 'Action', 2025, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(25, 'Лора и сын', 'Комедия о том, как молодая девушка и ее отец научились...', 'Comedy', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(26, 'Мистер Корке', 'История о забавных приключениях профессора в попытках...', 'Comedy', 2025, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(27, 'Куда пропала Ванда', 'Комедия о поисках Ванды, полных юмора и...', 'Comedy', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(28, 'Предсказание', 'Комедия о том, как удивительное предсказание меняет жизнь...', 'Comedy', 2023, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(29, 'За пивом', 'Комедия о группе друзей, которые отправляются в...', 'Comedy', 2024, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4'),
+(30, 'itis', 'ITIS 11-309', 'Comedy', 2025, 'assets/serials/therapy.webp', 'assets/trailers/terapia.MP4');
+
+
+
+CREATE TABLE actors (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL,
+    movie_id INT NOT NULL,
+    FOREIGN KEY (movie_id) REFERENCES movies (id)
+);
+
+
+INSERT INTO actors (name, role, movie_id)
+VALUES 
+    ('Jason Sudeikis', 'Ted Lasso', (SELECT id FROM movies WHERE title = 'Тед Лассо')),
+    ('Hannah Waddingham', 'Rebecca Welton', (SELECT id FROM movies WHERE title = 'Тед Лассо')),
+    ('Jeremy Swift', 'Leslie', (SELECT id FROM movies WHERE title = 'Тед Лассо')),
+    ('Phil Dunster', 'Jamie Tartt', (SELECT id FROM movies WHERE title = 'Тед Лассо')),
+    ('Brett Goldstein', 'Roy Kent', (SELECT id FROM movies WHERE title = 'Тед Лассо')),
+    ('Paul Rudd', 'Доктор Айк Хершкопф', (SELECT id FROM movies WHERE title = 'Финч')),
+    ('Will Ferrell', 'Мартин Марковиц', (SELECT id FROM movies WHERE title = 'Финч')),
+    ('Kathryn Hahn', 'Филлис Шапиро', (SELECT id FROM movies WHERE title = 'Финч')),
+    ('Casey Wilson', 'Бонни', (SELECT id FROM movies WHERE title = 'Финч')),
+    ('Cornell Womack', 'Брюс', (SELECT id FROM movies WHERE title = 'Финч')),
+    ('Idris Elba', 'Линда', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Jonathan Majors', 'Нейт', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('LaKeith Stanfield', 'Джаспер', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Delroy Lindo', 'Шериф Беккер', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Brad Pitt', 'Ник', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Кейт Уинслет', 'Эмили', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Николь Кидман', 'Джулия', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Лиам Нисон', 'Дэвид', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Руперт Эверетт', 'Том', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Анна Пакуин', 'Мария', (SELECT id FROM movies WHERE title = 'Наполеон')),
+    ('Джонатан Мэйджорс', 'Кейл', (SELECT id FROM movies WHERE title = 'Одинокие волки')),
+    ('Идрис Эльба', 'Нейт', (SELECT id FROM movies WHERE title = 'Одинокие волки')),
+    ('Реджина Кинг', 'Линда', (SELECT id FROM movies WHERE title = 'Одинокие волки')),
+    ('Лакит Стэнфилд', 'Джаспер', (SELECT id FROM movies WHERE title = 'Одинокие волки')),
+    ('Делрой Линдо', 'Шериф Беккер', (SELECT id FROM movies WHERE title = 'Одинокие волки')),
+    ('Октавия Спенсер', 'Эдрианна Гарви', (SELECT id FROM movies WHERE title = 'Заговор сестёр Гарви')),
+    ('Сара Поли', 'Марианна Гарви', (SELECT id FROM movies WHERE title = 'Заговор сестёр Гарви')),
+    ('Трэйси Леттс', 'Джордж Гарви', (SELECT id FROM movies WHERE title = 'Заговор сестёр Гарви'));
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO users (email, password)
+VALUES ('ilnarval@gmail.com', 'barca');
+
+

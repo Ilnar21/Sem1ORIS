@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/movie.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="navbar_elements">
+      <div class="navbar_left">
+        <a href="#">
+          <img class="iconAppleTV" src="assets/icons/iconAppleTV.png"> Открыть TV
+          <img class="iconLink" src="assets/icons/link.png" alt="Link Icon">
+        </a>
+      </div>
+      <a class="logo" href="http://localhost:6529/index">Apple TV+</a>
+      <div class="navbar_right">
+        <input type="text" placeholder="Поиск" />
+        {{NAVBAR_BUTTON}} 
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Обновленный блок для отображения трейлера -->
+  <div class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        {{trailer}}
+        <div class="slide-content">
+          <h1>{{title}}</h1>
+        </div>
+        <div class="video-controls">
+          <button class="play-pause">⏸️</button>
+          <button class="mute-unmute">🔇</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="cast">
+    <h2>Актеры и съемочная группа</h2>
+    <div class="cast-list">
+      {{actors}} <!-- Здесь будет список актеров -->
+    </div>
+  </section>
+
+  <section class="combined-section">
+    <h3>Описание</h3>
+    <div class="description-box">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+
+    <div class="info-section">
+      <div>
+        <h3>Информация</h3>
+        <ul>
+          <li><strong>Релиз:</strong> {{release_year}}</li>
+          <li><strong>Рейтинг:</strong> 18+</li>
+          <li><strong>Регион происхождения:</strong> Великобритания</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Языки</h3>
+        <ul>
+          <li><strong>Исходное аудио:</strong> Английский</li>
+          <li><strong>Аудио:</strong> Русский (AD, Dolby 5.1, AAC, Dolby Atmos), Английский (AD, Dolby 5.1, AAC, Dolby Atmos), и еще 8...</li>
+          <li><strong>Субтитры:</strong> Русский (SDH), Английский (Скрытые субтитры, SDH), и еще 39... <a href="#">См. все</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Универсальный доступ</h3>
+        <ul>
+          <li><strong>CC:</strong> Скрытые субтитры (CC) — это субтитры на доступных языках, передающие диалоги и другую звуковую информацию.</li>
+          <li><strong>AD:</strong> Аудиодескрипция (AD) — это аудиодорожка с описанием происходящего на экране, предназначенная для слепых или слабовидящих.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-left">
+    <div class="footer-top">
+      Copyright © 2024 Apple Inc. Все права защищены.
+    </div>
+    <div class="footer-links">
+      <a href="#" class="links">Условия пользования интернет-сервисами</a>
+      <span>|</span>
+      <a href="#">Apple TV и конфиденциальность</a>
+      <span>|</span>
+      <a href="#">Использование cookies</a>
+      <span>|</span>
+      <a href="#">Служба поддержки</a>
+    </div>
+  </div>
+  <div class="footer-right footer-locale">
+    <a href="#" class="russia">Россия</a>
+    <span>|</span>
+    <a href="#" class="languages">English (UK)</a>
+    <span>|</span>
+    <a href="#" class="languages">Русский</a>
+    <span>|</span>
+    <a href="#" class="languages">Українська</a>
+  </div>
+</footer>
+<script src="assets/js/movie.js"></script>
+</body>
+</html>
+
